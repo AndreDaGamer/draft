@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Collectible
+comment1.params=
+comment1.target=Collectible()
+comment1.text=\r\n\ Initializes\ Collectible\ object\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Increase\ instance\ variable\ score\ and\ removes\ Collectible\ \r\n\ object\ from\ current\ world\ if\ Cat\ object\ touches\ Collectible\r\n\ object\r\n
+comment3.params=
+comment3.target=boolean\ getAcquired()
+comment3.text=\r\n\ Returns\ instance\ variable\ aquired\r\n\ \r\n\ @return\ -\ returns\ true\ if\ a\ Collectible\ object\ is\ acquired\ \r\n\ and\ false\ if\ not\r\n
+numComments=4

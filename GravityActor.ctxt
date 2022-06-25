@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=GravityActor
+comment1.params=
+comment1.target=GravityActor()
+comment1.text=\r\n\ Initializes\ a\ GravityActor\ object.\r\n\ Precondition\:\ Boolean\ landed\ and\ int\ velocity\ declared.\r\n\ Postcondition\:\ Boolean\ landed\ initialized\ to\ false\ and\ int\ velocity\ initialized\ to\ 1\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Stops\ Actor\ object\ from\ falling\ when\ Actor\ object\ touches\ a\ block\ object\r\n\ Precondition\:\ GravitActor\ object\ must\ be\ initialized\r\n\ Postcondtion\:\ Actor\ object\ stops\ falling\ when\ intersecting\ with\ Block\ object\r\n
+comment3.params=
+comment3.target=boolean\ isBlocked()
+comment3.text=\r\n\ Returns\ true\ if\ GravityActor\ is\ touching\ Block\ object\ and\ not\r\n\ \r\n\ @return\ isTouching(Block.class)\ -\ A\ boolean\ method\ that\ returns\ true\ if\ current\ object\ is\ touching\ other\ object\ and\ false\ if\ not.\r\n
+comment4.params=
+comment4.target=boolean\ isFalling()
+comment4.text=\r\nReturns\ true\ if\ GravityActor\ is\ currently\ falling\r\n\r\n@return\ \!isBlocked\ -\ returns\ true\ if\ GravityActor\ object\ is\ \r\nnot\ blocked\ and\ false\ if\ GravityActor\ object\ is\ blocked\r\n
+comment5.params=
+comment5.target=int\ getVelocity()
+comment5.text=\r\n\ Returns\ instance\ variable\ velocity.\r\n\ \r\n\ @return\ velocity\ -\ the\ velocity\ of\ the\ GravityActor\ objecy\r\n
+comment6.params=vel
+comment6.target=void\ setVelocity(int)
+comment6.text=\r\n\ Initializes\ velocity\ variable\ to\ a\ different\ value\r\n\ Precondtion\:\ Velocity\ variable\ must\ be\ declared\r\n\ Postcondtion\:\ Velocity\ variable\ is\ changed\ to\ the\ value\ of\ int\ vel\r\n\ \r\n\ @param\ vel\ -\ the\ new\ value\ of\ velocity\ to\ be\ set\ for\ GravityActor\ object\r\n
+numComments=7

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Spike
+comment1.params=
+comment1.target=Spike()
+comment1.text=\r\n\ Intializes\ a\ Spike\ object.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Subtracts\ 1\ from\ life\ instance\ variable\ and\ moves\ Cat\ object\ if\ Cat\ Object\ touches\ Spike\ object\r\n\ Removes\ Cat\ object\ from\ world\ if\ lives\ instance\ variable\ is\ equal\ to\ zero\r\n
+numComments=3

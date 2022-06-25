@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Animation
+comment1.params=fr\ frames
+comment1.target=Animation(int,\ java.lang.String[])
+comment1.text=\r\n\ Initializes\ an\ Animation\ object.\r\n\ Precondition\:\ Animation\ object\ must\ take\ an\ int\ fr\ and\ String[]\ frames.\r\n\ Postcondition\:\ Instance\ variables\ int\ frameRate\ and\ MayflowerImage[]\ frames\ are\ initialized\ with\ int\ fr\ and\ \r\n\ (MayflowerImage)\ frames.length\r\n\ \r\n\ @param\ fr\ -\ int\ that\ initializes\ instance\ variable\ frameRate\ for\ Animation\ object\r\n\ @param\ frames\ -\ length\ of\ String\ array\ initializes\ instance\ variable\ frame's\ length\ for\ Animation\ object\r\n
+comment2.params=
+comment2.target=int\ getFrameRate()
+comment2.text=\r\n\ Returns\ the\ int\ frameRate\ of\ a\ given\ Animation\ object.\r\n\ Precondition\:\ Animation\ object\ must\ be\ initialized.\r\n\ Postcondition\:\ Returns\ int\ frameRate\ accessed\ from\ the\ Animation\ object.\r\n\ \r\n\ @return\ frameRate\ -\ the\ frameRate\ of\ the\ Animation\ object\r\n
+comment3.params=proportion
+comment3.target=void\ changeScale(double)
+comment3.text=\r\n\ Scales\ the\ images\ in\ the\ MayflowerImage[]\ frames\ to\ a\ double\ amount.\r\n\ Precondition\:\ changeScale\ method\ must\ take\ a\ double\ amount\r\n\ Postcondition\:\ Instance\ \ variable\ MayflowerImage[]\ frames\ is\ scaled\ to\ double\ amount\r\n\ \r\n\ @param\ amount\ -\ double\ to\ be\ used\ as\ the\ actual\ paramater\ in\ the\ scale(double\ x)\ method\r\n
+comment4.params=height\ width
+comment4.target=void\ changeScale(int,\ int)
+comment4.text=\r\n\ Scales\ the\ images\ in\ the\ MayflowerImage[]\ frames\ to\ an\ int\ height\ and\ int\ width.\r\n\ Precondition\:\ changeScale\ method\ must\ take\ an\ int\ height\ and\ int\ width\r\n\ Postcondition\:\ Instance\ \ variable\ MayflowerImage[]\ frames\ is\ scaled\ to\ an\ int\ height\ and\ int\ width\r\n\ \r\n\ @param\ height\ -\ int\ to\ fill\ height\ parameter\ in\ scale\ method\r\n\ @param\ width\ -\ int\ to\ fill\ width\ parameter\ in\ scale\ method\r\n
+comment5.params=
+comment5.target=void\ flipHorizontally()
+comment5.text=\r\n\ Flips\ the\ array\ of\ MayflowerImages\ array\ horizontally\r\n\ Precondition\:\ MayflowerImage[]\ frames\ must\ be\ initialized\r\n\ Postcondition\:\ Instance\ variable\ MayflowerImage[]\ frames\ is\ flipped\ horizontally.\r\n
+comment6.params=
+comment6.target=mayflower.MayflowerImage\ getNextFrame()
+comment6.text=\r\n\ Returns\ the\ MayflowerImage\ nextFrame\ of\ a\ given\ Animation\ object.\r\n\ Precondition\:\ Animation\ object\ must\ be\ initialized.\r\n\ Postcondition\:\ Returns\ currentFrame\ +\ 1\ or\ MayflowerImage\ nextFrame\ of\ the\ given\ Animation\ object.\r\n\ \r\n\ @return\ nextFrame\ -\ the\ nextFrame\ of\ the\ current\ Animation\ object.\r\n
+comment7.params=x\ y\ w\ h
+comment7.target=void\ setBounds(int,\ int,\ int,\ int)
+comment7.text=\r\n\ Sets\ the\ bounds\ for\ the\ Animation\ object\ by\ cropping\ variable\ MayflowerImage[]\ frames.\r\n\ Precondition\:\ setBounds\ method\ must\ take\ an\ int\ x,\ int\ y,\ int\ w,\ and\ int\ h\r\n\ Postcondition\:\ Animation\ object\ is\ cropped\ with\ values\ of\ int\ x,\ int\ y,\ int\ w,\ and\ int\ h\r\n\ \r\n\ @param\ x\ -\ int\ to\ fill\ x\ paramater\ in\ crop\ method\r\n\ @param\ y\ -\ int\ to\ fill\ y\ paramater\ in\ crop\ method\r\n\ @param\ w\ -\ int\ to\ fill\ w\ paramater\ in\ crop\ method\r\n\ @param\ h\ -\ int\ to\ fill\ h\ paramater\ in\ crop\ method\r\n
+numComments=8

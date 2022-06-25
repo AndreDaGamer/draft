@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Dog
+comment1.params=
+comment1.target=Dog()
+comment1.text=\r\n\ Initializes\ a\ Dog\ object\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Sets\ the\ left\ and\ right\ walking\ animations\ for\ the\ Dog\ object\r\n\ Decreases\ a\ life\ and\ moves\ Cat\ object\ if\ Cat\ Object\ touches\ Dog\ object\r\n\ Removes\ Cat\ object\ from\ world\ if\ lives\ is\ equal\ to\ zero\r\n
+numComments=3

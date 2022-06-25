@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AnimatedActor
+comment1.params=
+comment1.target=AnimatedActor()
+comment1.text=\r\n\ Initializes\ the\ Timer\ animationTime\ variable.\r\n
+comment2.params=a
+comment2.target=void\ setAnimation(Animation)
+comment2.text=\r\n\ Initializes\ the\ Animation\ animation\ variable\r\n\ Precondition\:\ animation\ object\ must\ be\ initialized\r\n\ Postcondition\:\ Sets\ Animation\ animation\ object\ to\ Animation\ a\ object\r\n\ \r\n\ @param\ a\ -\ Animation\ object\ to\ initialize\ instance\ variable\ animation\ \r\n\ for\ AnimatedActor\ object\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Loops\ through\ the\ frames\ array\ instance\ variable\ to\ create\ \r\n\ an\ animation\ of\ thr\ AnimatedActor\ object\r\n
+numComments=4

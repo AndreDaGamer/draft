@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LevelTwo
+comment1.params=
+comment1.target=LevelTwo()
+comment1.text=\r\n\ Initializes\ LevelTwo\ object\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Sets\ gameOver\ as\ current\ world\ if\ instance\ variable\ lives\ is\r\n\ equal\ to\ zero\r\n\ Changes\ current\ world\ to\ World\ Win\ if\ all\ Collectible\ objects\r\n\ are\ acquired\r\n
+numComments=3

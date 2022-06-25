@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=GameOver
+comment1.params=
+comment1.target=GameOver()
+comment1.text=\r\n\ Initializes\ a\ GameOver\ object\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Sets\ World\ GameOver\ as\ the\ current\ world\r\n
+numComments=3
